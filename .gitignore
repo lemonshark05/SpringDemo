@@ -1,0 +1,190 @@
+# macOS-specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux-specific files
+*~
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python-specific files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Java-specific files
+*.class
+*.jar
+*.war
+*.ear
+*.jpi
+*.hpi
+
+# JetBrains IDE (IntelliJ IDEA, PyCharm, etc.)
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse-specific files
+.classpath
+.project
+.settings/
+
+# NetBeans-specific files
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Visual Studio Code
+.vscode/
+
+# Maven build output
+/target/
+
+# Gradle build output
+.gradle/
+/build/
+!gradle-wrapper.jar
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.~lock.*
+*.ctxt
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Test output
+/test-output/
+test-results/
+
+# Docker-specific files
+.dockerignore
+docker-compose.override.yml
+docker-compose.debug.yml
+Dockerfile.*
+**/Dockerfile
+/var/lib/docker/
+.docker/
+
+# Kubernetes
+*.kube/
+
+# Spring Boot specific files
+/spring-boot-devtools/
+*.pid
+
+# Security-sensitive files
+*.key
+*.pem
+*.crt
+*.env
+*.cert
+
+# Configurations and overrides
+*.local
+.env.local
+.env.*.local
+
+# Generated files
+gen/
+gen-src/
+gen-resources/
+*.generated.*
+
+# Git-specific files
+!.gitignore
+!.gitattributes
+*.orig
+
+# Temporary files created by editors
+*~
+*.tmp
+*.bak
+*.swp
+*.swo
+*.swm
+*.log
+*.pid
+
+# Ignore built schema files
+*.schema
+
+# IntelliJ IDEA and Android Studio
+.idea/
+*.iml
+.gradle/
+/build/
+
+# Ignore application runtime data
+*.session
+*.state
+*.restart
+
+# Ignore sensitive configurations
+.env
+.env.*
+secrets.yml
+
+# Ignore CI/CD files (adjust based on tools used)
+.circleci/
+.github/
+.gitlab-ci.yml
+.travis.yml
+*.lock
+/ci/
+
+# Ignore package managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore temporary backups
+*.bak
+*.swp
+*.tmp
+
+# Ignore cloud provider files
+/.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Ignore backend tools
+*.sql.dmp
+.idea_modules/
+*.ipch
+
+# Ignore public assets (optional)
+public/assets/
+static/assets/
+
+# Sensitive or environment-specific files (customize as needed)
+application.properties
+application.yml
+.env
+.env.*
+secrets.yml
+
+# Maven Wrapper (Optional)
+.mvn/wrapper/maven-wrapper.properties
+mvnw
+mvnw.cmd
